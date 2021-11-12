@@ -21,6 +21,6 @@ function hideCard(card) {
         return hideNumCard.join("");
     }
 }
-hideCard(creditCard);
+hideCard(creditCardMin);
 
 module.exports = hideCard

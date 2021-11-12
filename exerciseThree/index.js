@@ -24,9 +24,10 @@ function reversePolishNotation(polish) {
         return "ERROR";
     }
     else {
+        console.log(typeof stack[0]);
         return stack[0];
     }
 }
-console.log(reversePolishNotation(polishNotation));
+reversePolishNotation(polishNotation);
 
 module.exports = reversePolishNotation
