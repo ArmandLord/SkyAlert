@@ -1,0 +1,3 @@
+Entender el patrón y las excepciones de algunos números, me sirvió para saber como iba a empezar.
+Nuevamente revise el enunciado y comencé devolviendo '0' si se recibía 0 como valor.
+Posterior a esta validación encontré las excepciones en los números ordinales y traté de resolverlas, pero me tope con un problema, porque la lógica para hacer la validación en estos casos era la misma, así que acudí a Google y vi que la opción era utilizar el modulo 10 y 100, ya que si en el caso de las excepciones coincidía con la validación del secondModulo pasábamos a la concatenación final y asi se completaba.

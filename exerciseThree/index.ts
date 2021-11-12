@@ -16,10 +16,6 @@ function reversePolishNotation(polish: any) {
         stack.push(parseInt(b) - parseInt(a));
       } else if (expr[i] === "*") {
         stack.push(parseInt(a) * parseInt(b));
-      } else if (expr[i] === "/") {
-        stack.push(parseInt(b) / parseInt(a));
-      } else if (expr[i] === "^") {
-        stack.push(Math.pow(parseInt(b), parseInt(a)));
       }
     }
   }

@@ -4,7 +4,9 @@ const creditCardMin: string = "123456";
 function hideCard(card: string) {
   if (card.length < 7) {
     return card;
-  } else {
+  } /*else if(card.length === 0){
+    return 'Error'
+  }*/else {
       
     let hideNumCard: Array<string> = [];
 
